@@ -1,0 +1,65 @@
+h3{
+    font-size:20px;
+    font-weight:normal;
+}
+img{
+    max-height:100%;
+    max-width:100%;
+}
+.row::before,.row::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.text-right{
+    text-align:right;
+}
+.media-wrapper .media-body{
+    display:table-cell;
+    vertical-align:middle;
+}
+.invoice .invoice-branding{
+    padding-top:40px;
+}
+.invoice .merchant-name{
+    font-weight:700;
+}
+.invoice .media-wrapper .media-left,.invoice .media-wrapper .media-body{
+    display:inline-block;
+}
+.invoice .media-wrapper .media-left{
+    vertical-align:top;
+}
+.invoice .inv__merchant-logo{
+    margin-right:8px;
+    margin-bottom:8px;
+}
+.invoice .inv__merchant-logo img{
+    max-height:48px;
+    max-width:48px;
+}
+.invoice .rzp-header-branding{
+    text-align:right;
+    line-height:1.2;
+    color:rgba(0,0,0,0.54);
+    font-size:10px;
+}
+.invoice .invoice-row{
+    margin-bottom:40px;
+}
+.invoice .invoice-row:not(.no-padding){
+    padding-left:40px;
+    padding-right:40px;
+}
+.valign-top{
+    vertical-align:top;
+}
+.rzp-logo{
+    display:inline-block;
+    height:26px;
+    line-height:25px;
+    margin-bottom:5px;
+}
+.payment-method{
+    text-transform: uppercase;
+}

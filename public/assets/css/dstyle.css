@@ -1,0 +1,42 @@
+/*D margin */
+
+.dm {
+    margin: 20px 0px;
+}
+
+.dmt-24 {
+    margin-top: 24px;
+}
+
+.dm-24 {
+    margin: 24px;
+}
+
+.dt-100{
+    margin-top:100px;
+}
+
+.dt-60{
+    margin-top:60px;
+}
+
+
+/*D padding */
+
+
+
+/*D Other css*/
+
+div.ex1 {
+    width: 100%;
+    height: 50px;
+    overflow: auto;
+}
+
+.modal-backdrop {
+    display: none;
+}
+
+.text-b {
+    color: #353535;
+}

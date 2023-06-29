@@ -1,0 +1,9 @@
+.update-status {
+    display: none;
+}
+
+.processing-request {
+    display: none;
+    color: cornflowerblue;
+    font-weight: bold;
+}

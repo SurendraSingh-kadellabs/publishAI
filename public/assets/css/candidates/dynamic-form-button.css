@@ -1,0 +1,48 @@
+.btnPlus {
+    float: right;
+    border: 0;
+    background-image: url('../../../assets/modules/jquery.czMore/img/add.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+
+}
+
+.btnMinus {
+    position: absolute;
+    float: right;
+    border: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box !important;
+    right: -6px;
+    box-sizing: border-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    background-image: url('../../../assets/modules/jquery.czMore/img/remove.png');
+}
+
+.btnMinus:hover {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+    opacity: 0.5;
+}
+
+.existingEducationRowRemoveBtn, .existingExperienceRowRemoveBtn {
+    position: absolute;
+    float: right;
+    border: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box !important;
+    right: -6px;
+    box-sizing: border-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    background-image: url('../../../assets/modules/jquery.czMore/img/remove.png');
+}

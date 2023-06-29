@@ -1,0 +1,138 @@
+/*D Mobile Responsive media Query */
+
+@media screen and (max-width: 479px) {
+
+    .mobile-h4 {
+        font-size: 10px;
+    }
+
+    .h-100{
+        height:100px;
+    }
+
+
+}
+
+ /*D margin and padding*/
+@media screen and (max-width: 576px) {
+
+    /*D Margin */
+    .mm-0{
+        margin:0px;
+    }
+
+    .mmt-0{
+        margin-top:0px;
+    }
+
+    .mobile-space-top-20 {
+        margin-top: 20px;
+    }
+
+    .mobile-space-top-35 {
+        margin-top: 35px;
+    }
+
+    .mrl{
+        margin:0px;
+    }
+
+    .mmborder{
+        border:2px solid black;
+    }
+
+    /*D padding */
+    
+    .mp-0{
+        padding:0px;
+    }    
+    .mrl{
+        margin:0px 1.5rem;
+    }
+
+    /*D font size */
+
+    .mobile-fz-20 {
+        font-size: 20px;
+    }
+
+    .mobile-fz-18{
+        font-size:18px;
+    }
+
+    .mobile-fz-14{
+        font-size:14px;
+    }
+
+    .mobile-fz-17{
+        font-size:17px;
+    }
+
+    /* D text-align */
+
+    .text-r{
+        text-align:right;
+    }
+
+    /* D other css */
+
+    .m-profile-wh {
+        background: #e0e0e0;
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .m-profile-text {
+        position: relative;
+        top: 20px;
+        font: 46px solid black;
+    }
+}
+
+
+
+
+
+
+/*D  navbar fontsize*/
+
+@media only screen and (max-width: 767px) {
+
+     /*D font size */
+    .fs-14{
+        font-size: 14px;
+    }
+
+    .fs-18{
+        font-size: 18px;
+    }
+
+    .fs-20{
+        font-size: 20px;
+    }
+
+    .fs-12{
+        font-size:12px;
+    }
+
+    /*D padding */
+
+    .mp-0{
+        padding:0px; 
+    }
+
+    .mpr-15{
+        padding-right:15px;
+    }
+
+    /* D margin */
+    .mmtt-0{
+        margin-top:0px;
+    }
+
+
+    
+}
