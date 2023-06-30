@@ -56,6 +56,7 @@ Route::middleware('auth')->group(function () {
     Route::group(['middleware' => ['role:admin|super.admin']], function () {
         Route::get('/book', [BookController::class, 'index'])->name('book.index');
         Route::post('/book/store', [BookController::class, 'store'])->name('book.store');
+        Route::get('/book/current_reviews', [BookController::class, 'currentReview'])->name('book.current_reviews');
 
 
     });

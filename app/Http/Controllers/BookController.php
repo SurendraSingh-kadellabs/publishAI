@@ -82,4 +82,17 @@ class BookController extends Controller
     {
         //
     }
+
+
+    /**** Current Review */
+
+    function currentReview(Request $request)
+    {
+        return view('book.current_reviews');
+    }
+
+
+
+
+
 }

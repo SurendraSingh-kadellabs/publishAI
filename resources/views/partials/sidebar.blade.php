@@ -33,6 +33,16 @@
                     <span>{{__('Upload Book')}}</span>
                 </a>
             </li>
+
+
+
+            <li class="nav-item {{$request->is('doctors*','doctorbulkupload')?'active':''}}">
+                <a class="nav-link" href="{{route('book.current_reviews')}}">
+                <i class="fa-solid fa fa-file" style="font-size:15px;color:#044BA9"></i>
+                    <span>{{__('Ongoing Reviews')}}</span>
+                </a>
+            </li>
+
             <!-- <hr> -->
          
            
